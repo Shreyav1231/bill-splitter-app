@@ -1,0 +1,43 @@
+@import url(https://fonts.google.com/specimen/Space+Mono);
+
+body {
+    background-color: hsl(184, 70%, 41%);
+    font-family: monospace;
+    padding: 100px;
+    padding-bottom: 0px;
+    padding-top: 50px;
+    color: white;
+}
+
+hr{
+    margin-bottom: 40px;;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.person {
+    font-size: 15px;
+}
+
+button {
+    width: 75px;
+    height: 50px;
+}
+
+button:active {
+    background-color: rgb(119, 195, 225);
+}
+
+input {
+    width: 100px;
+    height: 45px;
+}
+
+footer {
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 0px;
+}

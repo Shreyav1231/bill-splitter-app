@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel = "stylesheet" href = "style.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+</head>
+
+
+<body>
+  <main>
+  <section>
+    <div class = "conatiner">
+      <h1>BILL SPLITTER</h1>
+      <hr/>
+      <div class = "left">
+        <h2>Bill</h2>
+        <input type = "number" id = "bill-amount" placeholder = "$">
+        <h2>Number of people</h2>
+        <input type = "number" id = "people" placeholder = "Number of people">
+
+        
+        <h2>Select Tip %</h2>
+        <div class = "percent-buttons">
+          <button id = "tip-5">5%</button>
+          <button id = "tip-10">10%</button>
+          <button id = "tip-15">15%</button>
+          <button id = "tip-20">20%</button>
+          <button id = "tip-25">25%</button>
+          <input type = "number" id = "tip-custom" placeholder = "Custom">
+        </div>
+      </div>
+      
+      <div class = "right">
+        <h2>Tip <span class = "person">/person</span></h2>
+        <p id = "tip-person"></p>
+        <h2>Total <span class = "person">/person</span></h2>
+        <p id = "total-person"></p>
+
+        <button id = "reset-button">Reset</button>
+      
+      </div>
+      
+    </div> 
+  </section>
+  </main>
+  <footer>Made by <a href = "https://github.com/Shreyav1231">Shreya</a>.</footer>
+  <script src = "script.js"></script>
+</body>
+</html>
